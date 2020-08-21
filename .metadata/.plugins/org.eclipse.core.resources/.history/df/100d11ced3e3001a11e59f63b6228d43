@@ -1,0 +1,19 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Altura {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Informe a altura: "));
+		int n = teclado.nextInt();
+		double []
+		
+		
+		teclado.close();
+	}
+
+}

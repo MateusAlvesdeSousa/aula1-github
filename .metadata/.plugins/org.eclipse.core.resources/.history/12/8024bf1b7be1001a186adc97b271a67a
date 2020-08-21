@@ -1,0 +1,15 @@
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		int a = 5, b = 6, c = 7, d = 8;
+		int diferenca;
+		
+		diferenca = (a * b - c * d);
+		
+		System.out.printf("A diferença de valor é %d%n", diferenca);
+
+	}
+
+}

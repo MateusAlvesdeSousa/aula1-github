@@ -1,0 +1,31 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Produto;
+
+public class ProgramaEstoque {
+
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+		
+		Produto produto = new Produto();
+		
+		System.out.println("Informe o Produto: ");
+		System.out.print("Produto: ");
+			produto.nome = teclado.nextLine();
+		System.out.print("Preço: R$ ");
+			produto.preco = teclado.nextDouble();
+		System.out.print("Quantidade em Estoque: ");
+			produto.quantidade = teclado.nextInt();
+		
+		System.out.println();	
+		System.out.println("Informações do Produto: " + produto);
+		
+		
+		teclado.close();
+
+	}
+
+}

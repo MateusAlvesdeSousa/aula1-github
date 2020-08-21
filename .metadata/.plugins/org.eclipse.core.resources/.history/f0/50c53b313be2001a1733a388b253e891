@@ -1,0 +1,17 @@
+package entidade;
+
+public class Empregado {
+
+	public String name;
+	public double grossSalary;
+	public double tax;
+	public double percentage;
+	
+	public double increaseSalary() {
+		return ((percentage / 100) * grossSalary );
+	}
+	public double netSalary() {
+		return grossSalary - tax;
+	}
+}
+

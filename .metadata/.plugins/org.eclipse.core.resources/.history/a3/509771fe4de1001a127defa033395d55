@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		System.out.print("Olá Mateus, preparado para iniciar esta jornada?");
+		System.out.println("Bom dia");
+
+	}
+
+}

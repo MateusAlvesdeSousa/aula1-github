@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int valor = 32;
+		
+		System.out.println("Olá Mateus, preparado para iniciar esta jornada?");
+		System.out.println("Bom dia");
+		System.out.println(valor);
+		
+
+	}
+
+}

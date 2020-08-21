@@ -1,0 +1,22 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+import entities.Produtos;
+
+public class Altura {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Informe a quantidade de produtos: ");
+		int quantidade = teclado.nextInt();
+		
+		Produtos[] vetor = new Produtos[quantidade];
+		
+		
+		teclado.close();
+	}
+
+}

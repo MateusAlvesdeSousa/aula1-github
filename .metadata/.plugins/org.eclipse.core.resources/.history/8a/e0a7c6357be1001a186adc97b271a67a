@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		int horario;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Que horas são? ");
+		horario = teclado.nextInt();
+		
+		if (horario <= 12) {
+			System.out.println("Bom dia!");
+		}
+		else {
+			if (horario >= 13) {
+				System.out.println("Boa tarde!");
+			}
+			else {
+				System.out.println("Boa noite!");
+			}
+		}
+		
+		teclado.close();
+		
+	}
+
+}

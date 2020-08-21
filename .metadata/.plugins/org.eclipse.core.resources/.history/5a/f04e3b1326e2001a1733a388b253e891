@@ -1,0 +1,44 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Triangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Triangle x, y;
+		
+		x = new Triangle();
+		y = new Triangle();
+		
+		Scanner teclado = new Scanner(System.in);		
+		
+		System.out.println("Informe as medidas do triângulo X: ");
+		x.a = teclado.nextDouble();
+		x.b = teclado.nextDouble();
+		x.c = teclado.nextDouble();
+		System.out.println("Informe as medidas do triângulo Y: ");
+		y.a = teclado.nextDouble();
+		y.b = teclado.nextDouble();
+		y.c = teclado.nextDouble();
+		
+
+		double areaX = x.area();
+		double areaY = y.area();
+		
+		System.out.printf("O triângulo X tem área de %.4f%n", areaX);
+		System.out.printf("O triângulo Y tem área de %.4f%n", areaY);
+		
+		if (areaX > areaY) {
+			System.out.println("Maior área é do triângulo X");
+		}
+		else {
+			System.out.println("Maior áera é do triângulo Y");
+		}
+		
+		teclado.close();
+	}
+
+}

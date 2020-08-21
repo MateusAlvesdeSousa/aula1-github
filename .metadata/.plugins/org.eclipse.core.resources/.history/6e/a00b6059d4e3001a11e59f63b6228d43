@@ -1,0 +1,30 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Altura {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe o número de pessoas: ");
+		int n = teclado.nextInt();
+		double [] vect = new double [n];
+		
+		for (int i = 0; i < n; i++) {
+			vect[i] = teclado.nextDouble();
+		}
+		double sum = 0;
+		
+		for(int i = 0; i < n; i++) {
+			sum += vect[i];
+		}
+		double avg = sum / n;
+		
+		System.out.println("Average Height: "+ avg);
+		
+		teclado.close();
+	}
+
+}

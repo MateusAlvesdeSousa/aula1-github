@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		int numero;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe um numero: ");
+		
+		if (numero >= 0) {
+			System.out.printf("O numero %d é positivo", numero);
+		}
+		else {
+			System.out.printf("O numero %d é negativo", numero);
+		}
+		
+		teclado.close();
+	}
+
+}

@@ -1,0 +1,26 @@
+package application;
+
+import java.util.Scanner;
+import entities.Calculator;
+
+public class ProgramEstatic {
+	
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+		Calculator calc = new Calculator();
+		
+		System.out.print("Informe o valor do raio: ");
+			double raio = teclado.nextDouble();
+			
+		double c = calc.circunferencia(raio);
+		double v = calc.volume(raio);
+		
+		System.out.println();
+		System.out.printf("Circunferência: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI: %.2f%n", calc.PI);
+		
+		teclado.close();
+	}
+}

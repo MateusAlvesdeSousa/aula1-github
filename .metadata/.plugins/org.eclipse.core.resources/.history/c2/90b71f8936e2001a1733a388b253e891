@@ -1,0 +1,18 @@
+package entidade;
+
+public class Retangulo {
+	
+	public double a;
+	public double b;
+	public double c;
+	public double d;
+	public double width;
+	
+	public double area() {
+		 return (width * height);
+	}
+	public double perimetro() {	
+		return (a + b + c + d);
+		
+	}
+}

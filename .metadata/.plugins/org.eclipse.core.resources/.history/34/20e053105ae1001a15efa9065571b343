@@ -1,0 +1,15 @@
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		double raio = 2.00;
+		double area;
+		
+		area = (Math.pow(raio, 2.0) * 3.14159);
+		
+		System.out.printf("A área é de %.4f%n", area);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class testesProcessamento {
+
+	public static void main(String[] args) {
+		
+		int x = 5;
+		
+		y = 2 * x;
+		
+		System.out.println(x);
+		System.out.print(y);
+
+	}
+
+}
